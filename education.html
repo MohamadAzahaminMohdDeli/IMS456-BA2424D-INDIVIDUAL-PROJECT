@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MY RESUME</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+.w3-jumbo{
+  font-size: 50px !important; 
+}
+.w3-bar-block .w3-bar-item {
+  padding: 16px;
+}
+
+img{
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+
+  /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+  image-rendering: -webkit-optimize-contrast;
+}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="images/profile-sm.png" style="width:100%">
+ 
+    <a href="index.html" class="w3-bar-item w3-button w3-hover-black">
+      <i class="fa fa-home w3-large"></i>
+      <p class="my-0">HOME</p>
+    </a>
+
+  <a href="biodata.html" class="w3-bar-item w3-button w3-hover-black">
+    <i class="fa fa-user w3-large"></i>
+    <p class="my-0">BIODATA</p>
+  </a>
+  <a href="experience.html" class="w3-bar-item w3-button w3-hover-black">
+    <i class="fa fa-briefcase w3-large"></i>
+    <p class="my-0">EXPERIENCE</p>
+  </a>
+  <a href="education.html" class="w3-bar-item w3-button  w3-black">
+    <i class="fa fa-graduation-cap w3-large"></i>
+    <p class="my-0">EDUCATION</p>
+  </a>
+  <a href="family.html" class="w3-bar-item w3-button  w3-hover-black">
+    <i class="fa fa-users w3-large"></i>
+    <p class="my-0">FAMILY</p>
+  </a>
+  <a href="gallery.html" class="w3-bar-item w3-button  w3-hover-black">
+    <i class="fa fa-camera w3-large"></i>
+    <p class="my-0">GALLERY</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="index.html" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="biodata.html" class="w3-bar-item w3-button" style="width:25% !important">BIODATA</a>
+    <a href="experience.html" class="w3-bar-item w3-button" style="width:25% !important">EXPERIENCE</a>
+    <a href="education.html" class="w3-bar-item w3-button" style="width:25% !important">EDUCATION</a>
+    <a href="family.html" class="w3-bar-item w3-button" style="width:25% !important">FAMILY</a>
+    <a href="gallery.html" class="w3-bar-item w3-button" style="width:25% !important">GALLERY</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center">
+    <h1 class="w3-jumbo">EDUCATION</h1>
+    
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64">
+
+    <img src="images/uni.png" class="w3-image" width="200" height="200">
+    <h2 class="w3-text-light-grey" style="font-size: 20px;">UiTM Cawangan Kelantan Kampus Kota Bharu</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <ul class="w3-text-light-grey mb-5">
+      <li>2021 - Present</li>
+      <li>Bachelor of Business Administration (Hons.) Finance</li>
+      <li>CGPA: 3.67</li>
+      
+    </ul>
+
+    <img src="images/uni.png" class="w3-image" width="200" height="200">
+    <h2 class="w3-text-light-grey" style="font-size: 20px;">UiTM Cawangan Kelantan Kampus Machang</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <ul class="w3-text-light-grey mb-5">
+      <li>2018 - 2021</li>
+      <li>Diploma in Banking Studies</li>
+      <li>CGPA: 3.69</li>
+      
+    </ul>
+
+    <img src="images/school.png" class="w3-image" width="100" height="100">
+    <h2 class="w3-text-light-grey" style="font-size: 20px;">SMK(A) Wataniah Machang</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <ul class="w3-text-light-grey">
+      <li>2013 - 2017</li>
+      <li>Sijil Pelajaran Malaysia</li>
+      <li>Result: 1A+, 1A, 4A-, 1B+, 2C+, 1D, 1E</li>
+      
+    </ul>
+
+
+    
+  
+   
+  </div>
+  
+  
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <p class="w3-medium">2022 MY RESUME</p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>

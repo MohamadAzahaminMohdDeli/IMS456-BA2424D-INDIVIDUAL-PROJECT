@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MY RESUME</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+.w3-jumbo{
+  font-size: 50px !important; 
+}
+.w3-bar-block .w3-bar-item {
+  padding: 16px;
+}
+
+.w3-xxlarge{
+  font-size: 24px!important;
+}
+
+img{
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+
+  /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+  image-rendering: -webkit-optimize-contrast;
+}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body>
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="images/profile-sm.png" style="width:100%">
+ 
+    <a href="index.html" class="w3-bar-item w3-button w3-black">
+      <i class="fa fa-home w3-large"></i>
+      <p class="my-0">HOME</p>
+    </a>
+
+  <a href="biodata.html" class="w3-bar-item w3-button w3-hover-black">
+    <i class="fa fa-user w3-large w3-text-light-grey"></i>
+    <p class="my-0 w3-text-light-grey">BIODATA</p>
+  </a>
+  <a href="experience.html" class="w3-bar-item w3-button w3-hover-black">
+    <i class="fa fa-briefcase w3-large w3-text-light-grey"></i>
+    <p class="my-0 w3-text-light-grey">EXPERIENCE</p>
+  </a>
+  <a href="education.html" class="w3-bar-item w3-button  w3-hover-black">
+    <i class="fa fa-graduation-cap w3-large w3-text-light-grey"></i>
+    <p class="my-0 w3-text-light-grey">EDUCATION</p>
+  </a>
+  <a href="family.html" class="w3-bar-item w3-button  w3-hover-black">
+    <i class="fa fa-users w3-large w3-text-light-grey"></i>
+    <p class="my-0 w3-text-light-grey">FAMILY</p>
+  </a>
+  <a href="gallery.html" class="w3-bar-item w3-button  w3-hover-black">
+    <i class="fa fa-camera w3-large w3-text-light-grey"></i>
+    <p class="my-0 w3-text-light-grey">GALLERY</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="index.html" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="biodata.html" class="w3-bar-item w3-button" style="width:25% !important">BIODATA</a>
+    <a href="experience.html" class="w3-bar-item w3-button" style="width:25% !important">EXPERIENCE</a>
+    <a href="education.html" class="w3-bar-item w3-button" style="width:25% !important">EDUCATION</a>
+    <a href="family.html" class="w3-bar-item w3-button" style="width:25% !important">FAMILY</a>
+    <a href="gallery.html" class="w3-bar-item w3-button" style="width:25% !important">GALLERY</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center">
+    <h1 class="w3-jumbo w3-text-light-grey">MY RESUME</h1>
+    <p class="w3-text-light-grey">ABOUT ME</p>
+    
+    <img src="images/profile.png" class="w3-image" width="280" height="280">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-center w3-text-grey w3-padding-64 pt-0" id="about">
+    <div class="d-flex align-items-ceter justify-content-center w3-text-light-grey">
+      
+      <a class="me-3 mt-0 mb-2" href="https://www.facebook.com/azahamin.deli/"><i class="fa fa-facebook-official w3-xxlarge" aria-hidden="true"></i></a>
+      <a class="me-3 mt-0 mb-2" href="https://www.instagram.com/_azhmn/"><i class="fa fa-instagram w3-xxlarge" aria-hidden="true"></i></a>
+      <a class="mt-0 mb-2" href="https://wasap.my/601126801786"><i class="fa fa-whatsapp w3-xxlarge" aria-hidden="true"></i></a>
+    </div>
+  
+    <p class="w3-text-light-grey mt-0"> 
+      Title: My Resume
+      <br>
+      Name: Mohamad Azahamin Bin Mohd Deli
+      <br>
+      Student ID: 2021171605
+      <br>
+      Group: BA2424D
+      <br>
+      Course Code: IMS456
+      <br>
+      Course Name: Basic Web Design And Content Management
+      <br>
+      Program Code: BA242
+      <br>
+      Faculty: Faculty of Business And Management
+      <br>
+      Submission Date: 12 July 2022
+      <br>
+      Lecturer: Faizal Haini Bin Fadzil
+    </p>
+  </div>
+
+ 
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    
+    <p class="w3-medium">2022 MY RESUME</p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
